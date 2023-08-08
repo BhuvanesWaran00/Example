@@ -48,6 +48,38 @@
 |     2|               | 
 |     3|               | 
 
+
+<details>
+<summary> Formatting content within your table </summary>
+
+```
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
+```
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
+
+To include a pipe `|` as content within your cell, use a `\` before the pipe:
+```
+| Name     | Character |
+| ---      | ---       |
+| Backtick | `         |
+| Pipe     | \|        |
+
+```
+| Name     | Character |
+| ---      | ---       |
+| Backtick | `         |
+| Pipe     | \|        |
+
+
+</details>
+
+
 </details>
 
 ---
@@ -82,7 +114,7 @@ Use \`git status` to list all new or modified files that haven't yet been commit
 
 Use `git status` to list all new or modified files that haven't yet been committed.
 
-+ For multiple line -  \``` ```
++ For multiple lines -  \``` ```
 
 Some basic Git commands are:
 \```
@@ -96,6 +128,26 @@ git status
 git add
 git commit
 ```
+To display triple backticks in a fenced code block, wrap them inside quadruple backticks.
++ use - \```` ````
+  + **If you want examples see these files code line 137 to 143**
+<details>
+<summary> Syntax highlighting </summary>
+
+````
+```ruby
+require 'red carpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+````
+ 
+```ruby
+require 'red carpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+</details>
 
 </details>
 
