@@ -227,8 +227,11 @@ You can create an inline link by wrapping link text in brackets [ ], and then wr
   
 ```
 This site was built using [GitHub Pages](https://pages.github.com/).
+<a href="https://github-production-user-asset-6210df.s3.amazonaws.com/117109051/258714568-cbe93b22-5c78-471b-8d2e-1f8bbebbd1a8.png" target="_blank">GitHub Logo</a>
 ```
 This site was built using [GitHub Pages](https://pages.github.com/).
+
+<a href="https://github-production-user-asset-6210df.s3.amazonaws.com/117109051/258714568-cbe93b22-5c78-471b-8d2e-1f8bbebbd1a8.png" target="_blank">GitHub Logo</a>
 </details>
 
 ---
@@ -289,5 +292,3 @@ Nested Lists
 </details>
 
 ---
-
-
